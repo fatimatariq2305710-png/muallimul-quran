@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muallimul Quran</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0a0a0a;
+color:white;
+line-height:1.6;
+}
+
+header{
+background:black;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:1px solid gold;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+color:gold;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+transition:.3s;
+}
+
+nav a:hover{
+color:gold;
+}
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:
+linear-gradient(rgba(0,0,0,.7),
+rgba(0,0,0,.7)),
+url('https://images.unsplash.com/photo-1519491050282-cf00c82424b4?auto=format&fit=crop&w=1500&q=80');
+background-size:cover;
+background-position:center;
+}
+
+.hero h1{
+font-size:55px;
+color:gold;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:20px;
+max-width:700px;
+margin-bottom:25px;
+}
+
+.btn{
+display:inline-block;
+padding:14px 30px;
+background:gold;
+color:black;
+font-weight:bold;
+text-decoration:none;
+border-radius:30px;
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+section{
+padding:80px 8%;
+}
+
+.section-title{
+text-align:center;
+font-size:38px;
+color:gold;
+margin-bottom:40px;
+}
+
+.about{
+text-align:center;
+max-width:900px;
+margin:auto;
+}
+
+.courses{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#111;
+padding:25px;
+border:1px solid gold;
+border-radius:15px;
+text-align:center;
+}
+
+.card h3{
+color:gold;
+margin-bottom:10px;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.feature{
+background:#111;
+padding:20px;
+border-radius:12px;
+border:1px solid gold;
+text-align:center;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact p{
+margin:10px 0;
+}
+
+footer{
+background:black;
+padding:20px;
+text-align:center;
+border-top:1px solid gold;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:38px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+nav{
+display:none;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">Muallimul Quran</div>
+
+<nav>
+<a href="#about">About</a>
+<a href="#courses">Courses</a>
+<a href="#why">Why Us</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+
+<h1>Learn Quran Kareem Online</h1>
+
+<p>
+One-to-One Quran Classes for Kids and Adults Through Google Meet Worldwide.
+</p>
+
+<a href="#contact" class="btn">
+Book Free Trial Class
+</a>
+
+</section>
+
+<section id="about">
+
+<h2 class="section-title">About Teacher</h2>
+
+<div class="about">
+
+<p>
+Assalamu Alaikum.
+
+I am Fatima Tariq. Welcome to Muallimul Quran.
+
+I provide online Quran Kareem classes for students worldwide through Google Meet. My mission is to help children and adults learn Quran with proper Tajweed, correct pronunciation, and Islamic values.
+</p>
+
+</div>
+
+</section>
+
+<section id="courses">
+
+<h2 class="section-title">Our Courses</h2>
+
+<div class="courses">
+
+<div class="card">
+<h3>Noorani Qaida</h3>
+<p>Learn Quran reading basics.</p>
+</div>
+
+<div class="card">
+<h3>Quran Reading</h3>
+<p>Improve recitation and fluency.</p>
+</div>
+
+<div class="card">
+<h3>Tajweed Course</h3>
+<p>Learn correct pronunciation rules.</p>
+</div>
+
+<div class="card">
+<h3>Hifz-ul-Quran</h3>
+<p>Memorization with guidance.</p>
+</div>
+
+<div class="card">
+<h3>Daily Duas</h3>
+<p>Important Islamic supplications.</p>
+</div>
+
+<div class="card">
+<h3>Islamic Studies</h3>
+<p>Basic Islamic knowledge.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="why">
+
+<h2 class="section-title">Why Choose Us</h2>
+
+<div class="features">
+
+<div class="feature">✅ Live Google Meet Classes</div>
+
+<div class="feature">✅ Worldwide Students</div>
+
+<div class="feature">✅ Flexible Timings</div>
+
+<div class="feature">✅ One-to-One Teaching</div>
+
+<div class="feature">✅ Kids & Adults Welcome</div>
+
+<div class="feature">✅ Free Trial Class</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">Contact Us</h2>
+
+<div class="contact">
+
+<p><strong>Teacher:</strong> Fatima Tariq</p>
+
+<p><strong>WhatsApp:</strong> 0320 1278253</p>
+
+<p><strong>Email:</strong> fatimatariq2305710@gmail.com</p>
+
+<p><strong>Classes:</strong> Google Meet</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 Muallimul Quran | All Rights Reserved
+</p>
+
+</footer>
+
+<a
+class="whatsapp"
+href="https://wa.me/923201278253"
+target="_blank">
+WhatsApp
+</a>
+
+<script>
+alert("Welcome To Muallimul Quran");
+</script>
+
+</body>
+</html>
